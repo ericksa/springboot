@@ -12,7 +12,7 @@ public class PostService {
 
 		// this works because all users are incrementing 1-10
 		// a better version would be to place number in a array and check to see if the
-		// number is in the array or not
+		// TODO Try using Boolean[]
 		while (x < total) {
 
 			if (user[x].getUserId() != y) {
